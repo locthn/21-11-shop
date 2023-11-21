@@ -1,0 +1,43 @@
+Flow ID,Description,Test Steps,Flow Priority
+2,Verify Successful Checkout Process with Shipping Address,"step 1: Navigate to Page home
+step 2: At Page home click on hyperlink product apple iphone new --> navigate to Page product apple-iphone-15-new
+step 3: At Page product apple-iphone-15-new click on label object
+step 4: At Page product apple-iphone-15-new click on label object
+step 5: At Page product apple-iphone-15-new click on button object
+step 6: At Page product apple-iphone-15-new click on hyperlink cart --> navigate to Page cart
+step 7: At Page cart click on button object --> navigate to Page checkout info
+step 8: At Page checkout info click on div object
+step 9: At Page checkout info input on input email
+step 10: At Page checkout info click on input receive marketing info
+step 11: At Page checkout info click on button object --> navigate to Page checkout shipping-address
+step 12: At Page checkout shipping-address click on span object
+step 13: At Page checkout shipping-address click on input delivery id
+step 14: At Page checkout shipping-address input on input shipping address first name
+step 15: At Page checkout shipping-address input on input shipping address last name
+step 16: At Page checkout shipping-address input on input shipping address address line 1
+step 17: At Page checkout shipping-address input on input shipping address zip
+step 18: At Page checkout shipping-address input on input shipping address city
+step 19: At Page checkout shipping-address input on input shipping address state
+step 20: At Page checkout shipping-address select on select shipping address country id
+step 21: At Page checkout shipping-address input on input shipping address phone
+step 22: At Page checkout shipping-address click on input billing address the same
+step 23: At Page checkout shipping-address input on input billing address first name
+step 24: At Page checkout shipping-address input on input billing address last name
+step 25: At Page checkout shipping-address input on input billing address address line 1
+step 26: At Page checkout shipping-address input on input billing address zip
+step 27: At Page checkout shipping-address input on input billing address city
+step 28: At Page checkout shipping-address input on input billing address state
+step 29: At Page checkout shipping-address select on select billing address country id
+step 30: At Page checkout shipping-address click on button object
+step 31: Add visual checkpoint at Page checkout shipping-address",High
+1,Verify Successful Navigation to Home Page,"step 1: Navigate to Page home
+step 2: At Page home click on button object
+step 3: At Page home click on label object
+step 4: At Page home click on label object
+step 5: At Page home click on button object
+step 6: At Page home click on button object
+step 7: Add visual checkpoint at Page home",Low
+4,Verify Successful Navigation to Payment Page,"step 1: Navigate to Page checkout payment
+step 2: Add visual checkpoint at Page checkout payment",Trivial
+3,Verify Successful Navigation to Category Page,"step 1: Navigate to Page category
+step 2: Add visual checkpoint at Page category",Trivial
