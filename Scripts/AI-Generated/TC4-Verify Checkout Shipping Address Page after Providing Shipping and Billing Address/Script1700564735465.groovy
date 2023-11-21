@@ -1,7 +1,7 @@
-import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.model.FailureHandling
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import internal.GlobalVariable as GlobalVariable
 
 'Initialize test session: Open browser and set view port'
 
@@ -31,7 +31,7 @@ WebUI.enhancedClick(testObj)
 
 'step 3: At Page product apple-iphone-15-new click on label object'
 
-testObj = findTestObject('Object Repository/Page_product/label_object')
+testObj = findTestObject('Object Repository/Page_product/label_object_1')
 
 WebUI.delay(3)
 
@@ -45,7 +45,7 @@ WebUI.enhancedClick(testObj)
 
 'step 4: At Page product apple-iphone-15-new click on label object'
 
-testObj = findTestObject('Object Repository/Page_product/label_object_1')
+testObj = findTestObject('Object Repository/Page_product/label_object_2')
 
 WebUI.delay(3)
 
@@ -405,7 +405,7 @@ WebUI.verifyElementPresent(testObj, 20, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyMatch(WebUI.getUrl(), '.*/checkout/shipping-address(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.selectOptionByIndex(testObj, '22')
+WebUI.selectOptionByIndex(testObj, '168')
 
 'step 30: At Page checkout shipping-address click on button object'
 
@@ -423,7 +423,7 @@ WebUI.enhancedClick(testObj)
 
 'step 31: Add visual checkpoint at Page checkout shipping-address'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC2-Verify Successful Checkout Process with Shipping Address_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC4-Verify Checkout Shipping Address Page after Providing Shipping and Billing Address_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
