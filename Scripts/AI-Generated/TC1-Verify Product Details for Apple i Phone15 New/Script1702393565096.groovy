@@ -1,7 +1,7 @@
-import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.model.FailureHandling
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import internal.GlobalVariable as GlobalVariable
 
 'Initialize test session: Open browser and set view port'
 
@@ -45,7 +45,7 @@ WebUI.enhancedClick(testObj)
 
 'step 4: At Page product apple-iphone-15-new click on label object'
 
-testObj = findTestObject('AI-Generated/Page_product/label_object_1')
+testObj = findTestObject('AI-Generated/Page_product/label_object_2')
 
 WebUI.delay(3)
 
@@ -73,7 +73,7 @@ WebUI.enhancedClick(testObj)
 
 'step 6: Add visual checkpoint at Page product apple-iphone-15-new'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify Successful Navigation to Apple i Phone15 New Product Page_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify Product Details for Apple i Phone15 New_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

@@ -29,7 +29,7 @@
         "step 27: At Page checkout shipping-address select on select billing address country id",
         "step 28: At Page checkout shipping-address click on button object --> navigate to Page checkout payment",
         "step 29: At Page checkout payment click on input payment method id",
-        "step 30: At Page checkout payment click on button object --> navigate to Page thank-you f1c35415-28f9-4a9b-9bcd-46a225099e3",
-        "step 31: Add visual checkpoint at Page thank-you f1c35415-28f9-4a9b-9bcd-46a225099e3"
+        "step 30: At Page checkout payment click on button object --> navigate to Page thank-youe7-2ae9-426b-b9bf-11189ed165a8",
+        "step 31: Add visual checkpoint at Page thank-youe7-2ae9-426b-b9bf-11189ed165a8"
     ]
 }

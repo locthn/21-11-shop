@@ -1,8 +1,8 @@
-import internal.GlobalVariable as GlobalVariable
 import com.katalon.truetest.select.Select as Select
 import com.kms.katalon.core.model.FailureHandling
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import internal.GlobalVariable as GlobalVariable
 
 'Initialize test session: Open browser and set view port'
 
@@ -46,7 +46,7 @@ WebUI.enhancedClick(testObj)
 
 'step 4: At Page product apple-iphone-15-new click on label object'
 
-testObj = findTestObject('AI-Generated/Page_product/label_object_2')
+testObj = findTestObject('AI-Generated/Page_product/label_object_1')
 
 WebUI.delay(3)
 
@@ -408,7 +408,7 @@ WebUI.verifyMatch(WebUI.getUrl(), '.*/checkout/payment/?(?:#.*)?(?:\\?.*)?$', tr
 
 WebUI.enhancedClick(testObj)
 
-'step 30: At Page checkout payment click on button object --> navigate to Page thank-you f1c35415-28f9-4a9b-9bcd-46a225099e3'
+'step 30: At Page checkout payment click on button object --> navigate to Page thank-youe7-2ae9-426b-b9bf-11189ed165a8'
 
 testObj = findTestObject('AI-Generated/Page_checkout_payment/button_object')
 
@@ -422,9 +422,9 @@ WebUI.verifyMatch(WebUI.getUrl(), '.*/checkout/payment/?(?:#.*)?(?:\\?.*)?$', tr
 
 WebUI.enhancedClick(testObj)
 
-'step 31: Add visual checkpoint at Page thank-you f1c35415-28f9-4a9b-9bcd-46a225099e3'
+'step 31: Add visual checkpoint at Page thank-youe7-2ae9-426b-b9bf-11189ed165a8'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC2-Verify Successful Checkout Process and Thank You Page Display_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC2-Verify Checkout Process from Cart to Thank You Page_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
